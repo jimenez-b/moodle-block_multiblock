@@ -19,6 +19,13 @@
 }
 
 
+/* Prevent the buttons in the accordion to become centered when number of characters longer tha 40*/
+
+.block_multiblock .multiblock-accordion .btn:not(:disabled):not(.disabled) {
+    text-align: inherit;
+}
+
+
 /* Make dropdown full width */
 
 .block_multiblock .multiblock-dropdown>.nav {
