@@ -64,6 +64,9 @@ $string['presentation:tabbed-list-columns-2-66-33'] = 'Tabs: Columns: 2 (66% / 3
 $string['presentation:vertical-tabbed-list'] = 'Vertical Tabs (Left)';
 $string['presentation:vertical-tabbed-list-right'] = 'Vertical Tabs (Right)';
 
+$string['presentation:show-hide-title-carousel'] = 'Show/hide title';
+$string['presentation:show-hide-title-carousel_help'] = 'If checked, displays the title for each subblock on a Carousel';
+
 $string['privacy:metadata:block'] = 'The Multiblock block stores all of its data within the block subsystem.';
 
 $string['table:actions'] = 'Actions';

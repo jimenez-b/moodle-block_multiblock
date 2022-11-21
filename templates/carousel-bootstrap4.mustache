@@ -44,6 +44,11 @@
     <div class="carousel slide" id="multiblock-content-{{multiblockid}}">
         <div class="carousel-inner" role="listbox">
             {{#multiblock}}
+                {{^showtitlecheckbox}}
+                    <div class="card-header" id="multiblock-container-{{multiblockid}}-{{id}}">
+                        <h5 class="mb-0">{{{title}}}</h5>
+                    </div>
+                {{/showtitlecheckbox}}
                 <div class="carousel-item{{#active}} active{{/active}}" id="multiblock-{{multiblockid}}-{{id}}">
                     <div class="{{class}}">
                         {{{content}}}
