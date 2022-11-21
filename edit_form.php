@@ -68,7 +68,7 @@ class block_multiblock_edit_form extends block_edit_form {
         /* Add a form element (checkbox) to show/hide the title when the multiblock is a Carousel */
         $mform->addElement('checkbox', 'showtitlecheckbox', get_string('presentation:show-hide-title-carousel', 'block_multiblock'));
         $mform->setDefault('showtitlecheckbox', 0);
-        $mform->hideIf('showtitlecheckbox', 'config_presentation', 'eq', 'carousel');
+        $mform->hideIf('showtitlecheckbox', 'config_presentation', 'neq', 'carousel');
         $mform->addHelpButton('showtitlecheckbox', 'presentation:show-hide-title-carousel', 'block_multiblock');
     }
 }
